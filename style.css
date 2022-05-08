@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(62, 228, 145);
+}
+
+.block{
+ height: 550px;
+ width: 600px;
+ padding: 30px;
+ border-radius: 5%;
+ position: relative;
+ background-color: #fff;
+}
+
+.block1{
+    height: 480px;
+    width: 300px;
+    border-radius: 5%;
+    position: absolute;
+    left: -35px;
+    box-shadow: 0 0 10px;
+
+}
+
+.blockhead{
+    height: 400px;
+    background-color: rgb(118, 221, 22);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.headicon{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.headicon i{
+    color: white;
+}
+
+.imgapple{
+    height: 320px;
+    width: 100%;
+    background-image: url(/img/apple-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: -60px;
+    
+}
+
+.blockfooter{
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.blockfooter .photapp1{
+    height: 50px;
+    width: 20%;
+    border: 1px solid grey;
+    background-image: url(/img/capp1.jfif);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.blockfooter .photapp2{
+    height: 50px;
+    width: 20%;
+    border: 1px solid grey;
+    background-image: url(/img/capp2.jfif);
+    background-position: center;
+    background-size: cover;
+ 
+} 
+
+.blockfooter .photapp3{
+    height: 50px;
+    width: 20%;
+    border: 1px solid grey;
+    background-image: url(/img/capp3.jfif);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.blockfooter .photapp4{
+    height: 50px;
+    width: 20%;
+    border: 1px solid grey;
+    background-image: url(/img/capp4.jfif);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* block1 finished*/
+
+.block2{
+    height: 480px;
+    width: 300px;
+    border-radius: 5%;
+    margin-left: 260px;
+    padding: 10px;
+}
+
+.delapp{
+    height: 45px;
+    
+}
+
+.delapp h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.delapp h4{
+    font-size: 12px;
+    font-weight: 300;
+    color: grey;
+}
+
+.sinc{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: red;
+    margin-top: 40px;
+    opacity: 0.7;
+    
+}
+
+.sinc .sin p{
+    font-size: 60px;
+    margin-left: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.selapp{
+    height: 80px;
+}
+
+.selapp p{
+    margin-top: 35px;
+    font-size: 13px;
+    color: grey;
+}
+
+.selapp .apples{
+    height: 50px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.selapp .apples .apple1{
+    height: 45px;
+    width: 23%;
+    border: 1px solid grey;
+    background-image: url(/img/capp1.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selapp .apples .apple2{
+    height: 45px;
+    width: 23%;
+    background-image: url(/img/app1.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selapp .apples .apple3{
+    height: 45px;
+    width: 23%;
+    background-image: url(/img/app2.jfif);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selapp .apples .apple4{
+    height: 45px;
+    width: 23%;
+    background-image: url(/img/app3.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.block2 .benefits{
+    height: 120px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.block2 .benefits h1{
+    font-size: 17px;
+    color: grey;
+}
+
+.block2 .benefits ul{
+    margin-top: 7px;
+    font-size: 15px;
+    padding: 0 10px;
+    line-height: 18px;
+    opacity: 0.7;
+}
+
+.btn button{
+    border: 1px solid red;
+    height: 50px;
+    width: 180px;
+    box-shadow: 1 1 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+
+
+
+
